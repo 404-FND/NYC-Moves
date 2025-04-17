@@ -1,8 +1,51 @@
 [
   {
-    "name": "Some Place",
-    "address":"",
-    "description":"",
-    "cost":""
+    "name": "Central Park",
+    "address": "Central Park, New York, NY",
+    "description": "Iconic urban park with walking paths, lakes, and open spaces",
+    "cost": "Free",
+    "emoji": "🍎"
+  },
+  {
+    "name": "The Metropolitan Museum of Art",
+    "address": "1000 5th Ave, New York, NY 10028",
+    "description": "World-class art museum with extensive collections spanning 5,000 years",
+    "cost": "$25 (suggested)",
+    "emoji": "🎨"
+  },
+  {
+    "name": "Times Square",
+    "address": "Manhattan, NY 10036",
+    "description": "Vibrant intersection known for bright lights, Broadway theaters, and shops",
+    "cost": "Free",
+    "emoji": "✨"
+  },
+  {
+    "name": "Statue of Liberty",
+    "address": "New York, NY 10004",
+    "description": "Famous landmark symbolizing freedom and democracy",
+    "cost": "$23.50 (ferry)",
+    "emoji": "🗽"
+  },
+  {
+    "name": "Empire State Building",
+    "address": "20 W 34th St, New York, NY 10001",
+    "description": "Iconic skyscraper with observation decks offering panoramic city views",
+    "cost": "$42+",
+    "emoji": "🏙️"
+  },
+  {
+    "name": "Brooklyn Bridge",
+    "address": "Brooklyn Bridge, New York, NY 10038",
+    "description": "Historic suspension bridge connecting Manhattan and Brooklyn with great views",
+    "cost": "Free",
+    "emoji": "🌉"
+  },
+  {
+    "name": "High Line",
+    "address": "New York, NY 10011",
+    "description": "Elevated linear park built on a former freight rail line",
+    "cost": "Free",
+    "emoji": "🌿"
   }
 ]

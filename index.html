@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC Activities</title>
+    <style>
+        body {
+            font-family: "Menlo", monospace;
+            background-color: #f7f6f3; /* Notion-like white color */
+            margin: 0;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .header-emoji {
+            font-size: 2rem;
+            margin-right: 10px;
+        }
+        h1 {
+            font-size: 2rem;
+            color: #333;
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .emoji {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            display: block;
+            text-align: center;
+        }
+        .name {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .address {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+        }
+        .description {
+            color: #444;
+            margin-bottom: 12px;
+        }
+        .cost {
+            font-weight: bold;
+            color: #2c722c;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="header-emoji">🍎</span>
+        <h1>NYC Activities</h1>
+    </div>
+    <div class="container" id="activities-container">
+        
+        <div class="card">
+            <div class="emoji">🍎</div>
+            <div class="name">Central Park</div>
+            <div class="address">Central Park, New York, NY</div>
+            <div class="description">Iconic urban park with walking paths, lakes, and open spaces</div>
+            <div class="cost">Cost: Free</div>
+        </div>
+    
+        <div class="card">
+            <div class="emoji">🎨</div>
+            <div class="name">The Metropolitan Museum of Art</div>
+            <div class="address">1000 5th Ave, New York, NY 10028</div>
+            <div class="description">World-class art museum with extensive collections spanning 5,000 years</div>
+            <div class="cost">Cost: $25 (suggested)</div>
+        </div>
+    
+        <div class="card">
+            <div class="emoji">✨</div>
+            <div class="name">Times Square</div>
+            <div class="address">Manhattan, NY 10036</div>
+            <div class="description">Vibrant intersection known for bright lights, Broadway theaters, and shops</div>
+            <div class="cost">Cost: Free</div>
+        </div>
+    
+        <div class="card">
+            <div class="emoji">🗽</div>
+            <div class="name">Statue of Liberty</div>
+            <div class="address">New York, NY 10004</div>
+            <div class="description">Famous landmark symbolizing freedom and democracy</div>
+            <div class="cost">Cost: $23.50 (ferry)</div>
+        </div>
+    
+        <div class="card">
+            <div class="emoji">🏙️</div>
+            <div class="name">Empire State Building</div>
+            <div class="address">20 W 34th St, New York, NY 10001</div>
+            <div class="description">Iconic skyscraper with observation decks offering panoramic city views</div>
+            <div class="cost">Cost: $42+</div>
+        </div>
+    
+        <div class="card">
+            <div class="emoji">🌉</div>
+            <div class="name">Brooklyn Bridge</div>
+            <div class="address">Brooklyn Bridge, New York, NY 10038</div>
+            <div class="description">Historic suspension bridge connecting Manhattan and Brooklyn with great views</div>
+            <div class="cost">Cost: Free</div>
+        </div>
+    
+        <div class="card">
+            <div class="emoji">🌿</div>
+            <div class="name">High Line</div>
+            <div class="address">New York, NY 10011</div>
+            <div class="description">Elevated linear park built on a former freight rail line</div>
+            <div class="cost">Cost: Free</div>
+        </div>
+    
+    </div>
+</body>
+</html>
